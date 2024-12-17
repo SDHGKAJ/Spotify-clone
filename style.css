@@ -1,0 +1,532 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: black;
+    height: 100%;
+    width: 100%;
+    font-family: 'poppins',sans-serif;
+}
+
+
+.home img{
+    height: 30px;
+    margin-left: 35%;
+    position: absolute; 
+    top: 0;
+    border-style: solid;   
+    border-radius: 75%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(38, 37, 37);
+    padding: 10px;
+}
+.search img{
+    height: 30px;
+    margin-left: 40%;
+    position: absolute;
+    top: 15px;
+    padding-left: 10px;
+    
+}
+.search p{
+    color: white;   
+    margin-left: 40%;
+    padding-left: 50px;
+    padding-top: 3px;
+    position: absolute;
+    top: 17px;
+}
+.arc img{
+    height: 30px;
+    margin-left: 70%;
+    top: 12px;
+    position: absolute;
+}
+.signup a{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    margin-left: 80%;
+    height: 30px;
+    
+    top: 0px;
+    padding: 15px;
+}
+.login{
+    text-decoration: none;
+    color: black;
+    margin-left: 87%;
+    top: 0;
+    padding: 15px;
+    position: absolute;
+    border-radius: 80px;
+    width: 60px;
+    background-color: white;
+    border-style: solid;
+    text-align: center;
+}
+
+.Side-bar-container{
+    background-color: rgb(18, 18, 18);
+    width: 30%;
+    height: 100%;
+    margin-top: 9px;
+    position: absolute;
+}
+.lib img{
+    height: 30px;
+    margin: 20px;
+}
+.lib p{
+    color: white;
+    position: absolute ;
+    margin-left: 80px;
+    top: 25px;
+}
+.plus img{
+    height: 30px;
+    right: 10px;
+    position: absolute;
+    top: 19px;
+}
+.create-container{
+    background-color: rgb(31, 32, 32);
+    width: 90%;
+    height: 130px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color:  rgb(31, 32, 32);
+}
+.create p{
+    color: white;
+    font-size: large;
+    padding: 20px;
+    font-weight: bold;
+}
+.para p{
+    color: white;
+    font-size: small;
+    padding-left: 20px;
+    top: 0;
+    margin-top: 50px;
+    position: absolute;
+    
+}
+.create-playlist p{
+    color: black;
+    width: 100px;
+    margin-top: 13px;
+    font-size: x-small;
+    font-weight: bold;
+    
+    
+    margin-left: 15px;
+    padding: 10px;
+    
+    border-radius: 50px;
+    text-align: center;
+    
+    background-color: white;
+    display: flex;
+    border-width: 5px 10px 15px 20px;   
+}
+.podcast{
+    background-color: rgb(31, 32, 32);
+    width: 90%;
+   
+    height: 150px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 160px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color:  rgb(31, 32, 32);
+}
+.p1 p{
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+}
+.p2 p{
+    color: white;
+    font-size: small;
+    margin-left: 20px;
+}
+.podcast-container{
+    background-color: white;
+    display: flex;
+    height: 30px;
+    margin-top: 10px;
+    width: 140px;
+    margin-left: 20px;
+    border-radius: 40px;
+    border-style: solid;
+    border-color: white;
+}
+.browse p{
+    font-size: x-small;
+    color: black;
+    font-weight: bold;
+    margin-left: 18px;
+    margin-top: 6px;
+    
+
+}
+
+
+.Privacy ul li a{
+    text-decoration: none;
+    color:  rgb(174, 174, 174);
+    font-size: 11px;
+    font-weight: 600;
+    margin: 0 5px;
+
+}
+.Privacy ul li{
+    padding-bottom: 5px;
+}
+.Privacy ul{
+    list-style: none;
+    margin-top: 60px;
+
+}
+.Privacy li{
+    padding-bottom:0  12px;
+    margin-top: 10px;
+}
+
+.browse-back img{
+    margin-top: 470px;
+    height: 20px;
+
+    margin-left: 30px;
+    
+}
+.browse-back p{
+    color: white;
+    font-size: small;
+    display: inline-block;
+    justify-content: center;
+}
+
+.Artist-container{
+    background-color:  rgb(18, 18, 18);
+    position: absolute;
+    left: 31%;
+    top: 10%;
+    height: 100%;
+    width: 68%;
+    border-radius: 15px;
+}
+.text-p{
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+    position: absolute;
+    left: 0;
+    padding: 20px;
+}
+.show a{
+    color: rgb(174, 174, 174);
+    right: 0;
+    padding: 30px;
+    position: absolute;
+    text-decoration: none;
+    font-size: small;
+
+}
+.kabir-singh img{
+    height: 180px;
+    width: 160px;
+    padding: 20px;
+    position: absolute;
+    top: 10%;
+    border-radius: 20px;
+    
+}
+.kabir-singh p{
+    color: white;
+    margin-top: 28%;
+    position: absolute;
+    left: 20px;
+    font-weight: bold;
+}
+.kabir-singh a{
+    color:  rgb(174, 174, 174);
+    text-decoration: none;
+    position: absolute;
+    margin-top: 31%;
+    font-size: small;
+    left: 20px;
+}
+.kabir-singh a:hover{
+    text-decoration: underline;
+}
+.amaran-2song img{
+    height: 180px;
+    width: 160px;
+    padding: 20px;
+    position: absolute;
+    top: 10%;
+    margin-left: 19.5%;
+    border-radius: 20px;
+
+}
+.amaran-2song p{
+    color: white;
+    margin-top: 28%;
+    position: absolute;
+    left: 20px;
+    font-weight: bold;
+    margin-left: 20%;
+
+}
+.amaran-2song a{
+    color:  rgb(174, 174, 174);
+    text-decoration: none;
+    position: absolute;
+    margin-top: 31%;
+    font-size: small;
+    left: 20px;
+    margin-left: 20%;
+
+}
+.amaran-2song a:hover{
+    text-decoration: underline;
+}
+.arabic-kudthu img{
+    height: 180px;
+    width: 160px;
+    padding: 20px;
+    position: absolute;
+    top: 10%;
+    margin-left: 39%;
+    border-radius: 20px;
+
+}
+.arabic-kudthu p{
+    color: white;
+    margin-top: 28%;
+    position: absolute;
+    left: 20px;
+    font-weight: bold;
+    margin-left: 39%;
+
+
+}
+.arabic-kudthu a{
+    color:  rgb(174, 174, 174);
+    text-decoration: none;
+    position: absolute;
+    margin-top: 31%;
+    font-size: small;
+    left: 20px;
+    margin-left: 39%;
+
+
+}
+.arabic-kudthu a:hover{
+    text-decoration: underline;
+}
+.illuminati img{
+    height: 180px;
+    width: 160px;
+    padding: 20px;
+    position: absolute;
+    top: 10%;
+    margin-left: 59%;
+    border-radius: 20px;
+
+}
+.illuminati p{
+    color: white;
+    margin-top: 28%;
+    position: absolute;
+    left: 20px;
+    font-weight: bold;
+    margin-left: 59%;
+
+
+}
+.illuminati a{
+    color:  rgb(174, 174, 174);
+    text-decoration: none;
+    position: absolute;
+    margin-top: 31%;
+    font-size: small;
+    
+    margin-left: 61%;
+
+
+}
+.illuminati a:hover{
+    text-decoration: underline;
+}
+.snake img{
+    height: 180px;
+    width: 160px;
+    padding: 20px;
+    position: absolute;
+    top: 10%;
+    margin-left: 78%;
+    border-radius: 20px;
+
+}
+.snake p{
+    color: white;
+    margin-top: 28%;
+    position: absolute;
+    left: 20px;
+    font-weight: bold;
+    margin-left: 78%;
+
+
+}
+.snake a{
+    color:  rgb(174, 174, 174);
+    text-decoration: none;
+    position: absolute;
+    margin-top: 31%;
+    font-size: small;
+    
+    margin-left: 80%;
+
+
+}
+.snake a:hover{
+    text-decoration: underline;
+}
+
+.pop-art p{
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+    position: absolute;
+    left: 0;
+    padding: 20px;
+    margin-top:35%;
+}
+.showyall a{
+    color: rgb(174, 174, 174);
+    right: 0;
+    padding: 30px;
+    position: absolute;
+    text-decoration: none;
+    font-size: small;
+    margin-top: 35%;
+}
+
+.ani img{
+    height: 180px;
+    width: 160px;
+    margin-top: 44%;
+    margin-left: 20px;
+    border-radius: 50%;
+    object-fit: cover; 
+    overflow: hidden;
+        
+    border-style: solid;
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+
+
+.ani a{
+    left: 0;
+    text-decoration: none;
+    color:rgb(174, 174, 174) ;
+    font-size: small;
+    position: absolute;
+    margin-top: 63%;
+    margin-left: 20px;
+    
+
+}
+.ed-seeran img{
+    height: 180px;
+    width: 160px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 44%;
+    margin-left: 220px;
+    border-radius: 50%;
+    
+    border-style: solid;
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+.ed-seeran a{
+   text-decoration: none;
+   color: rgb(174, 174, 174);
+   font-size: small;
+   position: absolute;
+   margin-top: 6px;
+   margin-left: 26%;
+}
+.GVP img{
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 180px;
+    width: 160px;
+    margin-top: 44%;
+    margin-left: 420px;
+    border-radius: 50%;
+    border-style: solid;
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+.GVP a{
+    text-decoration: none;
+   color: rgb(174, 174, 174);
+   font-size: small;
+   position: absolute;
+   margin-top: 6px;
+   margin-left: 45%;
+
+}
+.arr img{
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 180px;
+    width: 160px;
+    margin-top: 44%;
+    margin-left: 620px;
+    border-radius: 50%;
+    border-style: solid;
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+
+.arr a{
+    text-decoration: none;
+   color: rgb(174, 174, 174);
+   font-size: small;
+   position: absolute;
+   margin-top: 6px;
+   margin-left: 64%;
+}
+.sid img{
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 180px;
+    width: 160px;
+    margin-top: 44%;
+    margin-left: 820px;
+    border-radius: 50%;
+    border-style: solid;
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+.sid a{
+    text-decoration: none;
+   color: rgb(174, 174, 174);
+   font-size: small;
+   position: absolute;
+   margin-top: 6px;
+   margin-left: 85%;
+}
